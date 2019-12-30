@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <header>
+        <div id="myHeader2">
+            <ul>
+                <li>
+                    <a href="accueil">ACCUEIL</a>
+                </li>
+                <li>
+                    <a href="{{ path('concept') }}">LE CONCEPT</a>
+                </li>
+                <li>
+                    <a href="packs">PACKS</a>
+                </li>
+                <a href="#" id="picto">
+                    <img class="img-fluid" src="{{ asset('assets/img/picto-compte.png') }}">
+                </a>
+            </ul>
+        </div>
+    </header>
+
+    <article>
+
+        <p></p>
+
+    </article>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer2">
+            <img src="{{ asset('assets/img/kodnoir.png') }}" class="img-logo-footer" alt="logo-KOD">
+        </div>
+        <div class="reseaux">
+            <a href="#" class="twitter">
+                <img src="">
+            </a>
+            <a href="#" class="instagram">
+                <img src="">
+            </a>
+        </div>
+    </footer>
+{% endblock %}
