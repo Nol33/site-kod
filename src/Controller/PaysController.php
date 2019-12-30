@@ -21,6 +21,8 @@ class PaysController extends AbstractController
         // de la classe paysRepository (qui a ete créée automatiquement par SF lors du make:entity)
         $pays = $paysRepository->findAll();
 
+        //Coucou Mabite
+
         return $this->render('home.html.twig', [
             'pays' => $pays
         ]);
